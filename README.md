@@ -1,4 +1,4 @@
-# Spoof-QRcode ![](https://img.shields.io/badge/license-Apache 2.0-0a7bbd.svg?longCache=true&style=flat-square)
+# Spoof-QRcode ![](https://img.shields.io/badge/license-Apache2.0-0a7bbd.svg?longCache=true&style=flat-square)
 
 ------
 
@@ -12,7 +12,7 @@
 
 下面是有意思的例子，扫描看一下
 
-![有趣的例子](https://upload-images.jianshu.io/upload_images/2989110-558973f9de573ae8.png)
+![有趣的例子](https://upload-images.jianshu.io/upload_images/2989110-d6cda82667ad4e07.png)
 
 ## 已知问题
 
@@ -20,7 +20,7 @@
 
 2. 部分手机生成的二维码和一般的二维码有区别，具体表现为有小白边。如下图所示：
 
-   ![生成的图片](https://upload-images.jianshu.io/upload_images/2989110-fa97ca5d59cce967.png?)
+   ![生成的图片](https://upload-images.jianshu.io/upload_images/2989110-54edf1449ff2f1b9.png)
 
 3. 引导层对不齐。模拟器上稳稳妥妥没毛病，真机上各种不齐。
 
@@ -43,4 +43,4 @@
 
 如果有什么问题或者是建议，可以提 issue，当然，也可以直接微信联系我。
 
-![个人微信](https://upload-images.jianshu.io/upload_images/2989110-265c9bdc39f38a77.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![个人微信](https://upload-images.jianshu.io/upload_images/2989110-3a539502d7cb2b6a.png)
