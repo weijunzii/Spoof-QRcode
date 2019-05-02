@@ -1,0 +1,68 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="main">
+
+    <form bindsubmit="formSubmit">
+      <view class="title_box">
+        <image mode="widthFix" src="/image/name.png"></image>
+      </view>
+      <view class="guide">
+        <view class="guide-text">生成假的群聊二维码，居家旅行，出门恶搞必备~</view>
+        <view class="guide-text">随便输入点东西试试 (･ิϖ･ิ)っ</view>
+      </view>
+      <view class="input-row">
+        <view>群名：</view>
+        <input name="gname" value='' type="text" maxlength="13" placeholder="{{groupname}}" />
+      </view>
+      <view class="input-row">
+        <view>内容：</view>
+        <input name='url' value='' type="text" maxlength="255" placeholder="{{qrtext}}" />
+      </view>
+
+      <view class="start">
+        <button formType="submit" class="btn_start">恶搞</button>
+      </view>
+      <view class="hand">
+        <image mode="widthFix" src="/image/hand.png"></image>
+      </view>
+    </form>
+
+    <view bindtap="tap_introduce_ok" class="modal-introduce" wx:if="{{showIntroduce}}">
+      <view class="modal-introduce-name-frame"></view>
+      <view class="modal-introduce-qrtext-frame"></view>
+      <view class="modal-introduce-button-frame"></view>
+      
+      <view class="modal-introduce-name">
+        <text>第一步：点击输入群名</text>
+        <image mode="widthFix" src="/image/arrows_down.png"></image>
+      </view>
+      <view class="modal-introduce-qrtext">
+        <text>第二步：点击输入内容</text>
+        <image mode="widthFix" src="/image/arrows_up.png"></image>
+      </view>
+      <view class="modal-introduce-button">
+        <text>第三步：点击生成</text>
+        <image mode="widthFix" src="/image/arrows_up.png"></image>
+      </view>
+      
+      <view class="modal-introduce-tips">
+        <text>不输入或者少输入一个，群名会随机</text>
+      </view>
+      <view class="modal-introduce-ok-frame">
+        <text>知道了</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='designedby'>
+    <text>By 伪君子</text>
+  </view>
+  <view class='about'>
+    <text bindtap='onTapAbout'>关于作者</text>
+    <text>|</text>
+    <text bindtap="previewImage">奖赏作者</text>
+    <text>|</text>
+    <text bindtap="navigateToMiniProgram">颜值检测</text>
+  </view>
+</view>

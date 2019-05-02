@@ -1,0 +1,251 @@
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAIVBMVEX////x8fH39/f09PT////////z8/Pw8PD4+Pjt7e35+flligG+AAAABXRSTlPy8vLy5Zxa6dYAAAAqSURBVAjXYwACRQYGFobQ0NB2IIbSATjptLS0yrS0ZCidCBJfDpcnTAMA2XQhfZ4w9vMAAAAASUVORK5CYII=');
+}
+
+.main {
+  background-color: #ffd448;
+  border: 3px solid #000;
+  box-shadow: 5px 5px 5px #888;
+  margin-top: 50rpx;
+}
+
+.input-row {
+  margin: 20rpx 30rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+  border-top: 1rpx solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  height: 88rpx;
+  padding: 0 32rpx;
+  background-color: #fff;
+  font-size: 34rpx;
+  color: #000;
+}
+
+.title_box {
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  padding-top: 10rpx;
+}
+
+.title_box image {
+  width: 650rpx;
+}
+
+.guide {
+  padding-top: 30rpx;
+  margin-left: 30rpx;
+}
+
+.guide text {
+  font-size: 30rpx;
+}
+
+.guide-text {
+  font-size: 30rpx;
+}
+
+.tips{
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  color: #4D4D4D;
+}
+
+.input-row input {
+  margin-left: 50rpx;
+  flex: 1;
+}
+
+.start {
+  padding-top: 50rpx;
+  padding-bottom: 55rpx;
+}
+
+.btn_start {
+  width: 600rpx;
+  height: 110rpx;
+  background: #ff672b;
+  margin-bottom: 20rpx;
+  border: 3px solid #000;
+  border-radius: 20rpx;
+  font-weight: bold;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.hand {
+  position: absolute;
+  left: 520rpx;
+  top: 700rpx;
+}
+
+.hand image {
+  width: 100rpx;
+  position: absolute;
+  z-index: 3;
+}
+
+.designedby{
+  display: flex;
+  justify-content: center;
+  margin-top: 34%;
+  align-items: center;
+}
+
+.designedby text{
+  font-size: 34rpx;
+  color:#DADBD9;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+}
+
+.about text{
+  font-size: 38rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  color:#606060;
+}
+
+.modal-introduce {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0rpx;
+  left: 0rpx;
+  background: #000;
+  opacity: 0.7;
+  overflow: hidden;
+  z-index: 9998;
+}
+
+.modal-introduce-name-frame {
+  width: 680rpx;
+  height: 88rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 349rpx;
+  left: 33rpx;
+  z-index: 9999;
+  border: 3rpx solid #fff;
+  border-radius: 10rpx;
+}
+
+.modal-introduce-name text {
+  position: fixed;
+  top: 200rpx;
+  left: 100rpx;
+  z-index: 9999;
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.modal-introduce-name image {
+  width: 40rpx;
+  position: fixed;
+  top: 250rpx;
+  left: 500rpx;
+  z-index: 9999;
+}
+
+.modal-introduce-qrtext-frame {
+  width: 680rpx;
+  height: 88rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 454rpx;
+  left: 33rpx;
+  z-index: 9999;
+  border: 3rpx solid #fff;
+  border-radius: 10rpx;
+}
+
+.modal-introduce-qrtext text {
+  position: fixed;
+  top: 557rpx;
+  left: 100rpx;
+  z-index: 9999;
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.modal-introduce-qrtext image {
+  width: 40rpx;
+  position: fixed;
+  top: 548rpx;
+  left: 508rpx;
+  z-index: 9999;
+}
+
+.modal-introduce-button-frame {
+  width: 592rpx;
+  height: 100rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 618rpx;
+  left: 78rpx;
+  z-index: 9999;
+  border: 3rpx solid #fff;
+  border-radius: 10rpx;
+}
+
+.modal-introduce-button text {
+  position: fixed;
+  top: 750rpx;
+  left: 100rpx;
+  z-index: 9999;
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.modal-introduce-button image {
+  width: 40rpx;
+  position: fixed;
+  top: 730rpx;
+  left: 430rpx;
+  z-index: 9999;
+}
+
+
+.modal-introduce-tips {
+  text-align: left;
+}
+.modal-introduce-tips text {
+  position: fixed;
+  top: 850rpx;
+  left: 8%;
+  z-index: 9999;
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.modal-introduce-ok-frame {
+  width: 250rpx;
+  height: 90rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 980rpx;
+  left: 250rpx;
+  z-index: 9999;
+  border: 3rpx solid #fff;
+  border-radius: 300rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-introduce-ok-frame text {
+  z-index: 9999;
+  color: #fff;
+  font-size: 45rpx;
+}

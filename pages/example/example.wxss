@@ -1,0 +1,89 @@
+/* src/pages/xml2can/xml2can.wxss */
+
+.container {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAIVBMVEX////x8fH39/f09PT////////z8/Pw8PD4+Pjt7e35+flligG+AAAABXRSTlPy8vLy5Zxa6dYAAAAqSURBVAjXYwACRQYGFobQ0NB2IIbSATjptLS0yrS0ZCidCBJfDpcnTAMA2XQhfZ4w9vMAAAAASUVORK5CYII=');
+}
+
+.mybtn {
+  margin: 30rpx 30rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+}
+
+.input-data {
+  margin: 0rpx auto;
+  display: flex;
+  align-items: center;
+  height: 88rpx;
+  padding: 0 0rpx;
+  background-color: #fff;
+  font-size: 34rpx;
+  color: #000;
+}
+
+.bottom {
+  width: 600rpx;
+  height: 300rpx;
+  top: 830rpx;
+  position: absolute;
+}
+
+.btn_save {
+  width: 600rpx;
+  height: 110rpx;
+  background: #ff672b;
+  margin-top: 40rpx;
+  border: 3px solid #000;
+  border-radius: 20rpx;
+  font-weight: bold;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.btn_box {
+  margin-top: 80rpx;
+  width: 600rpx;
+  display: flex;
+}
+
+.btn_again {
+  width: 296rpx;
+  height: 110rpx;
+  border: 3px solid #000;
+  border-radius: 20rpx;
+  font-weight: bold;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.btn_share {
+  width: 296rpx;
+  height: 110rpx;
+  border: 3px solid #000;
+  border-radius: 20rpx;
+  font-weight: bold;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.button::after {
+  border-radius: 0;
+}
+
+.button {
+  border-radius: 0;
+}

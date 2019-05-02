@@ -1,0 +1,10 @@
+<view class="container">
+  <painter customStyle='margin-left:0rpx' palette="{{template}}" bind:imgOK="onImgOK" bind:imgErr="onImgErr" bindtap="previewImg" />
+  <view class="bottom">
+    <button class="btn_save" bind:tap='saveImage'>保存到相册</button>
+    <view class="btn_box">
+      <button class="btn_again" bindtap='onTapAgain'>接着来恶搞</button>
+      <button class="btn_share" openType="share">邀请朋友玩</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+.container{
+  background-color: #fff;
+  height: 100vh;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAIVBMVEX////x8fH39/f09PT////////z8/Pw8PD4+Pjt7e35+flligG+AAAABXRSTlPy8vLy5Zxa6dYAAAAqSURBVAjXYwACRQYGFobQ0NB2IIbSATjptLS0yrS0ZCidCBJfDpcnTAMA2XQhfZ4w9vMAAAAASUVORK5CYII=');
+}
+
+.introduce{
+  padding-left: 10rpx;
+}
+
+introduce-text{
+  margin-top: 40rpx;
+}
+.about-img{
+  width: 275rpx;
+  height: 275rpx;
+  border-radius: 70%;
+  float: left;
+  box-shadow: 5px 5px 5px #888;
+}
+.about-text{
+  padding-left: 10rpx;
+  padding-right: 30rpx;
+  font-size: 38rpx;
+}

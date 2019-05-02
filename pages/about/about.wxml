@@ -1,0 +1,15 @@
+<view class='container'>
+  <view class='introduce'>
+    <image class="about-img" bindtap="previewImage" src="/image/wxtx.png"></image>
+    <view class='introduce-text'>
+      <text class='about-text' selectable='true'>『昵称』：伪君子\n\n  </text>
+      <text class='about-text' selectable='true'>『职业』：菜鸡大学生\n\n </text>
+      <text class='about-text' selectable='true'>『技能』：手机贴膜\n\n </text>
+      <text class='about-text' selectable='true'>『爱好』：睡觉\n\n</text>
+    </view>
+    <text class='about-text' selectable='true'>『公众号』:伪君子的梦呓\n\n</text>
+    <text class='about-text' selectable='true'>『博客』: lbjheiheihei.xyz\n\n</text>
+    <text class='about-text' selectable='true'>『擅长』：懂点前端、会点爬虫、了解一点 C、C++、Python、Java，搞过两个小程序\n\n</text>
+    <text class='about-text' selectable='true'>『关于我』：林伯劲，家在广州增城区，目前在山西读计算机科学与技术，一个大三菜鸡，迷茫的大学生</text>
+  </view>
+</view>

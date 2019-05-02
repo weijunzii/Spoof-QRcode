@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/example/example",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundColor": "#eee",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "恶搞二维码",
+    "navigationBarTextStyle": "black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx9466ec1f37f1af95"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
