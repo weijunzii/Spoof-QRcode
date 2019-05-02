@@ -1,10 +1,10 @@
 # Spoof-QRcode ![](https://img.shields.io/badge/license-Apache2.0-0a7bbd.svg?longCache=true&style=flat-square)
 
-------
-
 ## 说明
 
 这个微信小程序的具体功能是做一个假的微信群聊二维码来恶搞好友，起因是我在 4 月 1 号被一个好友以类似这样的图片愚弄了，4 月 2 号琢磨了一下思路，找了一些好友来测试，4 月 5 号上线。
+
+![小程序二维码](https://upload-images.jianshu.io/upload_images/2989110-c52141e89ec8ad91.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 五一假期有点空闲时间，于是完善了一下，然后开源。
 
