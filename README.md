@@ -14,6 +14,18 @@
 
 ![有趣的例子](https://upload-images.jianshu.io/upload_images/2989110-d6cda82667ad4e07.png)
 
+如果不填写群名和内容就点击『恶搞』 生成图片，那么群名会随机，内容被自动填写为我写好的内容。
+
+因为小程序里面 if 不能嵌套 ，所以代码只能变成这样。
+
+![代码](https://upload-images.jianshu.io/upload_images/2989110-f5113838df0a7d25.png)
+
+如果输入的内容里包含敏感词，会提示 『包含敏感词，请重新编辑』。删掉输入的内容就能发现什么是敏感词，程序会自动把敏感词替换成 *，敏感词列表不太完善，请见谅。
+
+没钱用 API ，微信提供的那个需要用服务器，我不太想用服务器，所以直接前端实现。
+
+![敏感词](https://upload-images.jianshu.io/upload_images/2989110-09a407a40b604d60.png)
+
 ## 已知问题
 
 1. 内容不能有 emoji，否则 ios 扫描二维码会乱码
