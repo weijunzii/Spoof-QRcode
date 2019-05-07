@@ -38,6 +38,10 @@
 
    ![截图](https://upload-images.jianshu.io/upload_images/2989110-34997f3b23dd4284.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+   
+
+4. iOS 上点击『奖赏作者』，图片加载不出来。 
+
 ## Thanks
 
 这个小程序，绘图用的是 Painter ，没有这个库，这个小程序可能只是一个想法。
@@ -53,6 +57,10 @@
 - [ ] 生成的图片加上带壳截图
 - [ ] 完善 README
 - [ ] 随机群头像
+
+另一个小程序『颜值检测仪』早就开源了，点击[查看说明](https://mp.weixin.qq.com/s/r5F1xuIc7iC3DaOgZis9Nw)。
+
+> [https://github.com/weijunzii/beauty](https://github.com/weijunzii/beauty)
 
 如果有什么问题或者是建议，可以提 issue，当然，也可以直接微信联系我。
 
